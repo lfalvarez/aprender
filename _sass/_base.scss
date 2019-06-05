@@ -155,7 +155,10 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/fondo_azul.png');
+    background-repeat: no-repeat;
+    background-color: #006AB6;
+    background-size: contain;
     text-align: center;
     color: white;
     .header-content {
