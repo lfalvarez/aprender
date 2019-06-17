@@ -226,13 +226,11 @@ header {
 }
 
 .portfolio-box {
-    position: relative;
     display: block;
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
         display: block;
         background: rgba( $theme-primary, .9 );
         position: absolute;
@@ -253,13 +251,15 @@ header {
                 padding: 0 15px;
             }
             .project-category {
-                text-transform: uppercase;
+                text-transform: capitalize;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 12px;
             }
             .project-name {
                 font-size: 18px;
+                text-transform: uppercase;
             }
+
         }
     }
     &:hover {
@@ -281,6 +281,10 @@ header {
     }
 }
 
+.project-container {
+    min-height: 100px;
+    background-color: blue;
+}
 .call-to-action {
     h2 {
         margin: 0 auto 20px;
